@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>underscore</title>
+    <script src="./test.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>underscore</h1>
+    <img src="./test.jpg" alt="">
+    <p>name: <%= message %></p>
+    <ul>
+      <%
+        _.each(list,function(item){
+          print(`<li>${item}</li>`)
+        })
+      %>
+    </ul>
+  </body>
+</html>
